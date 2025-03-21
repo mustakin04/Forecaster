@@ -34,7 +34,13 @@ const Banner = () => {
             </h3>
           </div>
           <div className="flex gap-20 mt-[80px]">
-            <div className="flex gap-3.5 py-[19px] px-[36px] rounded-[999px] bg-[#289944]">
+            <div
+              className="flex gap-3.5 py-[19px] px-[36px] rounded-[999px] 
+bg-[rgb(28,30,83)] bg-gradient-to-br from-[rgba(28,30,83,0)] to-[rgba(13,51,23,1)] 
+shadow-[0px_0px_40px_5px_rgba(40,153,66,0.75)] 
+transition-all duration-800 ease-in-out 
+hover:bg-[rgb(13,51,23)] hover:bg-gradient-to-br hover:from-[rgba(13,51,23,0)] hover:to-[rgba(33,133,57,1)]"
+            >
               <a
                 href=""
                 className="font-primary font-semibold text-[18px] text-whites"
@@ -43,7 +49,13 @@ const Banner = () => {
               </a>
               <div className="w-[24px] h-[24px] bg-whites rounded-full"></div>
             </div>
-            <div className="flex gap-3.5 py-[19px] px-[36px] rounded-[999px] bg-[#289944]">
+            <div
+              className="flex gap-3.5 py-[19px] px-[36px] rounded-[999px] 
+bg-[rgb(28,30,83)] bg-gradient-to-br from-[rgba(28,30,83,0)] to-[rgba(13,51,23,1)] 
+shadow-[0px_0px_40px_5px_rgba(40,153,66,0.75)] 
+transition-all duration-300 ease-in-out 
+hover:bg-[rgb(13,51,23)] hover:bg-gradient-to-br hover:from-[rgba(13,51,23,0)] hover:to-[rgba(33,133,57,1)]"
+            >
               <a
                 href=""
                 className="font-primary font-semibold text-[18px] text-whites"
