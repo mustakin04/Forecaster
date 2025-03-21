@@ -7,6 +7,7 @@ import Banner from './Components/Banner/Banner'
 import Meet from './Components/Meet/Meet'
 import Features from './Components/Features/Features'
 import Membership from './Components/Membership/Membership'
+import Frequently from './Components/Frequently/Frequently'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Meet></Meet>
       <Features></Features>
       <Membership></Membership>
+      <Frequently></Frequently>
     </>
   )
 }
