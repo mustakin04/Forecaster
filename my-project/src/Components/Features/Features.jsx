@@ -13,7 +13,7 @@ const Features = () => {
         </h2>
         <div className="flex justify-between">
           <div
-            class="bg-cover bg-center bg-no-repeat w-[533px] h-[800px] pt-[24px] pl-[24px] rounded-[8px]"
+            class="bg-cover bg-center bg-no-repeat object-cover w-[533px] h-[800px] pt-[24px] pl-[24px] rounded-[8px]"
             style={{ backgroundImage: `url(${femel})` }}
           >
             <h3 className="font-primary font-normal text-whites text-[40px] w-[378px]">

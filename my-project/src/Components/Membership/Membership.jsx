@@ -14,7 +14,8 @@ const Membership = () => {
         </p>
         <div className="mt-[65px] flex justify-between">
            {/* BASIC part start */}
-        <div className="w-[421px] font-primary text-whites border-2 border-[#0D3317] rounded-[8px]">
+        <div className="w-[421px] font-primary text-whites border-2 border-[#0D3317] rounded-[8px]
+         hover:shadow-[0px_0px_25px_13px_rgba(40,153,66,0.75)]">
             <h2
               className="font-normal text-[32px] text-center border-b-2 border-[#0D3317] pt-[48px]
              pb-[24px] border-opacity-25 mx-[20px]"
@@ -60,7 +61,8 @@ hover:bg-[rgb(13,51,23)] hover:bg-gradient-to-br hover:from-[rgba(13,51,23,0)] h
           </div>
         {/* BASIC part end */}
         {/* PRO part start*/}
-        <div className="w-[421px] font-primary text-whites border-2 border-[#0D3317] rounded-[8px]">
+        <div className="w-[421px] font-primary text-whites border-2 border-[#0D3317] rounded-[8px]
+         hover:shadow-[0px_0px_25px_13px_rgba(40,153,66,0.75)]">
             <h2
               className="font-normal text-[32px] text-center border-b-2 border-[#0D3317] pt-[48px]
              pb-[24px] border-opacity-25 mx-[20px]"
@@ -106,7 +108,8 @@ hover:bg-[rgb(13,51,23)] hover:bg-gradient-to-br hover:from-[rgba(13,51,23,0)] h
           </div>
         {/* Pro part end */}
         {/* PREMIUM part start */}
-        <div className="w-[421px] font-primary text-whites border-2 border-[#0D3317] rounded-[8px]">
+        <div className="w-[421px] font-primary text-whites border-2 border-[#0D3317] rounded-[8px]
+        hover:shadow-[0px_0px_25px_13px_rgba(40,153,66,0.75)] ">
             <h2
               className="font-normal text-[32px] text-center border-b-2 border-[#0D3317] pt-[48px]
              pb-[24px] border-opacity-25 mx-[20px]"

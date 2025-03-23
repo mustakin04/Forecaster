@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="absolute top-[-100px] left-[15%] shadow-[0px_0px_145px_73px_rgba(40,153,66,0.75)] 
         w-[294px] h-[50px]  bg-[#28994400] rotate-[7.18deg] "
         ></div>
-        <Container className="bg-[#262626] flex py-[16px] items-center">
+        <Container className="bg-[#262626] flex py-[16px] items-center rounded-[8px]">
           <div className='w-[20%] flex pl-[16px]'>
             <img src={logo} alt="" />
             <h2 className='font-primary font-semibold text-[32px] text-4xl bg-gradient-to-r

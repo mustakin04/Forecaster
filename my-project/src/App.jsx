@@ -8,6 +8,7 @@ import Meet from './Components/Meet/Meet'
 import Features from './Components/Features/Features'
 import Membership from './Components/Membership/Membership'
 import Frequently from './Components/Frequently/Frequently'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Features></Features>
       <Membership></Membership>
       <Frequently></Frequently>
+      <Footer></Footer>
     </>
   )
 }
